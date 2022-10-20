@@ -30,12 +30,10 @@ console.log(price);
 
 if (age < 18) {
     price = price - (price * 0.2);
-    console.log('Il prezzo del biglietto è:', price.toFixed(2), '€');
 
-}   else if (age > 65){
-        price = price - (price * 0.4);
-        console.log('Il prezzo del biglietto è:', price.toFixed(2), '€');
-    
-}  else {
-    console.log('Il prezzo del biglietto è:', price.toFixed(2), '€');
-}
+}   else if(age > 65){
+        price = price - (price * 0.4);     
+}  
+
+console.log('Il prezzo del biglietto è:', price.toFixed(2), '€');
+
